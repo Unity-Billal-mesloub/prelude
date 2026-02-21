@@ -1,5 +1,5 @@
 [![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
-[![CI](https://github.com/bbatsov/prelude/workflows/CI/badge.svg)](https://github.com/bbatsov/prelude/actions/workflows/ci.yml)
+[![CI](https://github.com/Unity-Billal-mesloub/prelude/workflows/CI/badge.svg)](https://github.com/Unity-Billal-mesloub/prelude/actions/workflows/ci.yml)
 [![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/bbatsov)
 
 Emacs Prelude
@@ -16,7 +16,7 @@ Prelude is compatible **ONLY with GNU Emacs 25.1+**. In general you're
 advised to always run Prelude with the latest stable Emacs release.
 
 You can support the development of Prelude via
-[GitHub Sponsors](https://github.com/sponsors/bbatsov),
+[GitHub Sponsors](https://github.com/sponsors/Unity-Billal-mesloub),
 [ko-fi](https://ko-fi.com/bbatsov),
 [PayPal](https://www.paypal.me/bbatsov) and
 [Patreon](https://www.patreon.com/bbatsov).
@@ -50,13 +50,13 @@ source repository and the installation directory. To change the
 installation directory:
 
 ```shell
-export PRELUDE_INSTALL_DIR="$HOME/.emacs.d" && curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
+export PRELUDE_INSTALL_DIR="$HOME/.emacs.d" && curl -L https://github.com/Unity-Billal-mesloub/prelude/raw/main/utils/installer.sh | sh
 ```
 
 To change the source repository:
 
 ```shell
-export PRELUDE_URL="https://github.com/yourname/prelude.git" && curl -L https://github.com/bbatsov/prelude/raw/master/utils/installer.sh | sh
+export PRELUDE_URL="https://github.com/yourname/prelude.git" && curl -L https://github.com/Unity-Billal-mesloub/prelude/raw/main/utils/installer.sh | sh
 ```
 
 Note that the installer will back up any existing `.emacs` file or
@@ -120,16 +120,16 @@ my Emacs blog [Emacs Redux](https://emacsredux.com).
 
 ## crux and super-save
 
-A lot of utility commands that used to be part of Prelude were eventually extracted to the [crux](https://github.com/bbatsov/crux) package,
+A lot of utility commands that used to be part of Prelude were eventually extracted to the [crux](https://github.com/Unity-Billal-mesloub/crux) package,
 so they'd be easily available to more people.
 These days Prelude simply depends on that package.
 
-The [super-save](https://github.com/bbatsov/super-save) package also used to be part of Prelude in the past.
+The [super-save](https://github.com/Unity-Billal-mesloub/super-save) package also used to be part of Prelude in the past.
 
 ## Known issues
 
 Check out the project's
-[issue list](https://github.com/bbatsov/prelude/issues?sort=created&direction=desc&state=open)
+[issue list](https://github.com/Unity-Billal-mesloub/prelude/issues)
 a list of unresolved issues. By the way - feel free to fix any of them
 and send me a pull request. :-)
 
@@ -143,7 +143,7 @@ Support is available via several channels:
 
 ## Contributors
 
-Here's a [list](https://github.com/bbatsov/prelude/contributors) of all the people who have contributed to the
+Here's a [list](https://github.com/Unity-Billal-mesloub/prelude/contributors) of all the people who have contributed to the
 development of Emacs Prelude.
 
 ## Bugs & Improvements
@@ -151,11 +151,4 @@ development of Emacs Prelude.
 Bug reports and suggestions for improvements are always
 welcome. GitHub pull requests are even better! :-)
 
-## License
 
-Copyright © 2011-2025 Bozhidar Batsov and
-[contributors](https://github.com/bbatsov/prelude/contributors).
-
-Distributed under the GNU General Public License, version 3
-
-[badge-license]: https://img.shields.io/badge/license-GPL_3-green.svg
