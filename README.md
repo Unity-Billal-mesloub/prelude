@@ -1,4 +1,4 @@
-[![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
+
 [![CI](https://github.com/Unity-Billal-mesloub/prelude/workflows/CI/badge.svg)](https://github.com/Unity-Billal-mesloub/prelude/actions/workflows/ci.yml)
 [![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/bbatsov)
 
